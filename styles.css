@@ -1,0 +1,42 @@
+*{
+    padding:0em;
+    margin:0em;
+}
+body{
+    background-color:black;
+}
+.everything{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:auto;
+    width:70%;
+}
+header{
+    display:flex;
+    background-color:rgb(18, 202, 18);
+}
+.nav-bar{
+    display:flex;
+    align-items:center;
+    padding:1em;
+    justify-content:space-between;
+}
+ul{
+    list-style:none;
+    padding-right:2em;
+    margin:0em;
+    display:flex;
+    gap:2em;
+    font-size:1.5em;
+}
+a{
+    text-decoration:none;
+    color:purple;
+}
+img{
+    display:flex;
+    border-radius:50%;
+    width:4%;
+    height:auto
+}
