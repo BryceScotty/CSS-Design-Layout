@@ -143,13 +143,14 @@ h1{
     box-shadow: 5px 5px 30px rgb(255, 255, 0);
 
 }
-.third-container{
-    background-color:rgb(66, 102, 66);
+.third-container,
+.fourth-container{
+    background-color:rgb(66, 102, 102);
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    padding:4em 0em 3em;
+    padding:10em 0em 10em;
     width:100%;
 
 }
@@ -161,9 +162,45 @@ h1{
     text-align:center;
     gap:1em;
     font-size:2em;
+    width:70%
 }
 .signature{
     margin-left:auto;
     padding:0em 4em;
     font-size:.8em;
+}
+.fourth-container{
+    background-color:black;    
+}
+.end-features{
+    display:flex;
+    background-color:rgb(143, 143, 2);
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+    width:70%;
+    padding:2em 3em;
+    gap:3em;
+}
+.end-features p{
+    font-size:1.5em;
+}
+h6{
+    font-size:2em;
+}
+.end-button button{
+    padding:.5em 2em;
+    border-radius:8%;
+    background-color:rgb(255, 255, 78);
+    font-size:1em;
+}
+
+footer{
+    display:flex;
+    background-color:rgb(66, 102, 66);
+    color:rgb(255, 255, 0);
+    justify-content:center;    
+    font-size:1em;
+    padding:2em;
+    width:100%
 }
