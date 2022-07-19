@@ -181,12 +181,21 @@ h1{
     width:70%;
     padding:2em 3em;
     gap:3em;
+    flex-wrap:wrap;
+
+}
+.end-text{
+    width:70%;
 }
 .end-features p{
     font-size:1.5em;
 }
 h6{
     font-size:2em;
+}
+.end-button{
+    margin:auto;
+
 }
 .end-button button{
     padding:.5em 2em;
