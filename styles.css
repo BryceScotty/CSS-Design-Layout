@@ -111,29 +111,59 @@ h1{
     flex-direction:column;
     align-items:center;
     width:70%;
-    padding:1em 0em;
+    padding:2em 0em 3.5em 0em;
     justify-content:center;
     gap:2em;
-    font-size:2em;
+    font-size:3em;
+    text-align:center;
 }
+
 .second-container .image-collection{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     width:100%;
     gap:1em;
     flex-wrap:wrap;
     margin:auto;
-    padding-bottom:3em;
 }
 .second-container .image-collection .images{
     display:flex;
     flex-direction:column;
-    font-size:.8em;
+    font-size:.5em;
     text-align:center;
     align-items:flex-start;
+    gap:1em;;
     width:195px;
 }
 .second-container .image-collection .images img{
     width:195px;
     height:195px;
+    border:4px solid rgb(199, 199, 6);
+    border-radius:5%;
+    box-shadow: 5px 5px 30px rgb(255, 255, 0);
+
+}
+.third-container{
+    background-color:rgb(66, 102, 66);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:4em 0em 3em;
+    width:100%;
+
+}
+.quote-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+    text-align:center;
+    gap:1em;
+    font-size:2em;
+}
+.signature{
+    margin-left:auto;
+    padding:0em 4em;
+    font-size:.8em;
 }
